@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Aoying Zhang Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIwAAACMCAMAAACZHrEMAAAAaVBMVEX///8AAAD5+fnV1dWbm5siIiLd3d3Hx8dAQEBubm7q6uqioqKlpaXv7++9vb1RUVFLS0vk5ORWVlY1NTXOzs4pKSk7OzuKiooVFRVFRUVdXV2xsbEbGxsuLi4ICAhzc3N8fHxlZWWTk5MPfx7LAAAD3klEQVR4nO2a25KqMBBFae6ioIhyV5D//8gTcEoF0pE4HcpTk/Xg1EiAbSc73QkYhkaj0Wg0Go1Go9FoNJo1MKMSFFF6ppyWcKNKSk8TymgJjnAtK0sJFQv5MZAQ00BeyYVShiqHdnnrAEChFsPYASwPTQeJQimMC3SL2zaQ9X9CVwHD2M2gWSxmAzv26amxkmf0/bSRFBOpEROxS28/EHOITWKC/ediZKaDRYRazHeIEZ+yrpgIiq8RYyaw/xoxNoC7spiTjZRH7vknkdintcR4VyypbyAZTqng6q0jhuUsRKUFw4nMUod7DlIu5uRAyh8X5g2Sn/5zU3B4PUUs5oQXjaxzHgJY4QocNbRiPAf8mH+WeYbb87/YB2feU6Ri2Hg5IlpYxTQqJmNebCjFeDmk2NzjOndbPwhSyKexIRTDtBzQOa2FdBIz9wD5JDZ0YnBP3w/OJp+5w8nE4J7uKXgripnDqcQIPG0MScnifD11OJEYgaeNYbC23AMTh9OIEXna6EfvGenBscNJxIg83d8RwMaOjRxOIeYk8vRwgoPvubw6nEAM++G+aEslui/NMEIfIKYUk4rE+HAUbUaFySNRUHQTq+AEU8ybWtNKnqObZACfajw28UV46SCB+mEnGmtbNTqEM7gIAuMWUD8PE016pzMU3InGEtiahS2F88sUTJUOXJYmeWr2cMFHb3wYjye6RHnhjeIKKb0HWKK8KEmUQ6osptMwu/oNDUxQTIs9wuKKOTyZ5OYOal62Hnj1NL2YPi0ko+9CgBa7ysjTCsQYVg7F649tIMc6qff0LGi0SxXm8JdSly10d5iWZORpJWLGDj/AHpmXWVx4OYJ8efvMUxV31dhjTT2tSMzg8CE2YYrtDLFiky+TfkuELdeGBJCBg1SiHVaFKtgssuz+QHydLCGfxDYy+SjbRjvCWfL5njox1icPpVSJCZONdGD+9A75HxEj9fxZsZg08oiJ/I/FfMljwS37dP3aoSe1JMW00C5u+xGNxA1syJXpGLgOoV+IoLKloAGQaM2W8pn8XL8QMxOuQbntnU1nK6DbOICWHgjbWo2xe2qsiEcJdmXhiygcuM5aFDXny3GLW0WeZIy+uOK86lHBWcGt3mLWvBV/jC4YlFJBzok3y4TL39Oho+NvP3TwQQH4W8KSv7KNXnfN1sKdP9kaYCs70Z6wCkw2ZIqQ97qOUbKMvGpH7d7Naxl5jYiy4NUwiaz8S5iR4jDACTM4rhaaDlpxgy26b0PP/yVmt6IYG0pL9Mpk3EK5mrsXuEm6ZPmc6u08s35+0mg0Go1Go9FoNBqNRjPjHzC9SyNdYugDAAAAAElFTkSuQmCC" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#projects" class="nav__link">My Projects</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Aoying Z</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Software Dev</p>
+            <img src="img/profile.jpg" alt="a picture of Aoying Zhang" class="intro__img">
+        </section>
+        
+        
+        <!-- My projects -->
+        <section class="my-projects" id="projects">
+            <h2 class="section__title section__title--projects">What I do</h2>
+            <div class="projects">
+                <div class="project">
+                    <h3>Front-end Development</h3>
+                    <p>Developed and implemented this portfolio website with multiple UI functionalities including a responsive hamburger menu, etc. to enhance user experience and ensure accessibility on various devices. </p>
+                </div> <!-- / project -->
+                
+                <div class="project">
+                    <h3>OpenCV and Raspberry Pi</h3>
+                    <p>Implemented multiple functions in OpenCV library for the self-driving car's camera module to implement basic lane detection capability. The integration enables the car to sense its environment and perform smooth movement without human input. Utilized the Raspberry Pi as a platform to establish the connection between the software, motor module, and camera module, this allows for seamless communication and coordination among the different components of the system.
+                        </p>
+                </div> <!-- / project -->
+                
+                <div class="project">
+                    <h3>GUI and OOP</h3>
+                    <p>Developed and implemented a graphical user interface (GUI) and object-oriented programming (OOP) based game, leveraging the Java programming language. A ranking system was integrated to evaluate player performance, using target hit accuracy as a metric. The physics of gravity as well as multiple animation effects such as explosions and smoke were incorporated to enhance the overall user experience and realism. 
+                        </p>
+                </div> <!-- / project -->
+            </div> <!-- / projects -->
+            
+            <a href="#work" class="btn">My Work</a>
+        </section>
+        
+        
+        <!-- About me -->
+        <section class="about-me" id="about">
+           <h2 class="section__title section__title--about">Who I am</h2>
+           <p class="section__subtitle section__subtitle--about">Software Developer</p>
+           
+           <div class="about-me__body">
+               <p>I am a self-motivated software engineering student at the University of Waterloo with a keen attention to detail. Through my studies and several projects, I have developed a strong understanding of software development principles and a passion for creating efficient and user-friendly solutions. As a team player and fast learner, I am committed to continuously expanding my knowledge and skill set in the field of software engineering. I am looking for opportunities to apply my skills and contribute to projects that align with my interests.               </p>
+           </div>
+
+           <img src="img/profile2.jpg" alt="a picture of Aoying" class="about-me__img">
+        </section>
+        
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My work</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my works</p>
+            
+            <div class="portfolio">
+                
+                
+                <!-- Portfolio item 02 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/cart1.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 04 -->
+                <a href="portfolio-item3.html" class="portfolio__item">
+                    <img src="img/spaceship.png" alt="" class="portfolio__img">
+                </a>
+
+                <!-- Portfolio item 03 -->
+                <a href="portfolio-item2.html" class="portfolio__item">
+                    <img src="img/target game.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                
+                
+                
+            </div>
+        </section>
+        
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- replace with your own email address -->
+            <a href="mailto:a23zhang@uwaterloo.ca" class="footer__link">a23zhang@uwaterloo.ca</a>
+            <ul class="social-list"> 
+                
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/aoying/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/AoyingZhang">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        
+        <script src="js/Aoying Zhang.js"></script>
+        
+    </body>
+</html>
